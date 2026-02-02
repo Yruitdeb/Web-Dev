@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tables Advanced</title>
+<style>
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #04AA6D;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+tr:hover {
+  background-color: #D6EEEE;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr>
+    <th colspan="2">Name</th>
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td>
+    <td>43</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>57</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <td>Jill</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Phone</th>
+    <td>555-1234</td>
+  </tr>
+  <tr>
+    <td>555-8745</td>
+  </tr>
+</table>
+
+<br>
+
+<table>
+  <colgroup>
+    <col span="2" style="background-color: #D6EEEE">
+  </colgroup>
+  <tr>
+    <th>MON</th>
+    <th>TUE</th>
+    <th>WED</th>
+    <th>THU</th>
+    <th>FRI</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2</td>
+    <td>3</td>
+    <td>4</td>
+    <td>5</td>
+  </tr>
+</table>
+
+</body>
+</html>

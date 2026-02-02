@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Div Element</title>
+<style>
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.center {
+  width: 300px;
+  margin: auto;
+}
+.container {
+  display: flex;
+}
+.container > div {
+  width: 33%;
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div class="city">
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div class="city">
+  <h2>Oslo</h2>
+  <p>Oslo is the capital city of Norway.</p>
+</div>
+
+<div class="center">
+  <h2>Centered</h2>
+  <p>This div is centered.</p>
+</div>
+
+<div class="container">
+  <div style="background-color:#FFA07A;">
+    <h2>London</h2>
+    <p>London is the capital city of England.</p>
+  </div>
+  <div style="background-color:#98FB98;">
+    <h2>Oslo</h2>
+    <p>Oslo is the capital city of Norway.</p>
+  </div>
+  <div style="background-color:#87CEEB;">
+    <h2>Rome</h2>
+    <p>Rome is the capital city of Italy.</p>
+  </div>
+</div>
+
+</body>
+</html>
