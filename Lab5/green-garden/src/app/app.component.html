@@ -1,0 +1,44 @@
+<h1>🌿 Green Garden</h1>
+
+<div class="categories">
+  <button
+    (click)="selectCategory(null)"
+    [class.active]="selectedCategoryId === null">
+    All
+  </button>
+
+  <button
+    *ngFor="let cat of categories"
+    (click)="selectCategory(cat.id)"
+    [class.active]="selectedCategoryId === cat.id">
+    {{ cat.name }}
+  </button>
+</div>
+
+<div *ngIf="selectedCategoryId; else noCategory">
+
+  <div class="filters">
+    <select [(ngModel)]="selectedColor" (change)="applyFilters()">
+      <option value="">All Colors</option>
+      <option>Green</option>
+      <option>Red</option>
+      <option>Pink</option>
+      <option>White</option>
+    </select>
+
+    <select [(ngModel)]="selectedType" (change)="applyFilters()">
+      <option value="">All Types</option>
+      <option>Flower</option>
+      <option>Succulent</option>
+      <option>Indoor</option>
+      <option>Outdoor</option>
+    </select>
+  </div>
+
+  <app-plant-list [plants]="plants"></app-plant-list>
+
+</div>
+
+<ng-template #noCategory>
+  <p class="welcome">Select a category to explore our plants 🌱</p>
+</ng-template>

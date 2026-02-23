@@ -1,0 +1,71 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: building)...[36m⠼[39m Generating browser application bundles (phase: building)...[36m⠴[39m Generating browser application bundles (phase: building)...[36m⠦[39m Generating browser application bundles (phase: building)...[36m⠧[39m Generating browser application bundles (phase: sealing)...[36m⠇[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/data/plant-data.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@ngtools/webpack/src/ivy/index.js):[39m[22m
+[1m[31mError: ENOENT: no such file or directory, open '/home/yruit/university/22/web/Lab5/some/green-garden/src/app/data/plant-data.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mservices/plant.service.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../data/plant-data' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { PLANTS, CATEGORIES } from '../data/plant-data';[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: sealing)...[36m⠼[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/data/plant-data.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@ngtools/webpack/src/ivy/index.js):[39m[22m
+[1m[31mError: ENOENT: no such file or directory, open '/home/yruit/university/22/web/Lab5/some/green-garden/src/app/data/plant-data.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mservices/plant.service.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../data/plant-data' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { PLANTS, CATEGORIES } from '../data/plant-data';[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[1m[31m[39m[22m
+[1m[31m[0m[36m./src/app/data/plant-data.ts[39m[31m[0m - [0m[91mError: [39m[31m[0mModule build failed (from ./node_modules/@ngtools/webpack/src/ivy/index.js):[39m[22m
+[1m[31mError: ENOENT: no such file or directory, open '/home/yruit/university/22/web/Lab5/some/green-garden/src/app/data/plant-data.ts'[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96mservices/plant.service.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../data/plant-data' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { PLANTS, CATEGORIES } from '../data/plant-data';[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: emitting)...[32m✔[39m Browser application bundle generation complete.

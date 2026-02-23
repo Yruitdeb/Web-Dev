@@ -1,0 +1,118 @@
+[36m⠋[39m Generating browser application bundles (phase: setup)...[36m⠙[39m Generating browser application bundles (phase: building)...[36m⠹[39m Generating browser application bundles (phase: building)...[36m⠸[39m Generating browser application bundles (phase: building)...[36m⠼[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m38[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m13[0m:[93m16[0m[39m[22m
+[1m[31m    [7m13[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m38[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m13[0m:[93m16[0m[39m[22m
+[1m[31m    [7m13[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/components/plant-list/plant-list.component.html[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/components/plant-list/plant-list.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './plant-list.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component PlantListComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/components/plant-list/plant-list.component.html[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/components/plant-list/plant-list.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './plant-list.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component PlantListComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/services/plant.service.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../data/plant-data' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { PLANTS, CATEGORIES } from '../data/plant-data';[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/services/plant.service.ts[0m:[93m14[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'p' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m     return PLANTS.filter(p => p.categoryId === categoryId);[39m[22m
+[1m[31m[7m  [0m [91m                         ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[36m⠋[39m Generating browser application bundles...[36m⠙[39m Generating browser application bundles (phase: sealing)...[32m✔[39m Browser application bundle generation complete.
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m38[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m13[0m:[93m16[0m[39m[22m
+[1m[31m    [7m13[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/app.component.html[0m:[93m38[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m38[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/app.component.ts[0m:[93m13[0m:[93m16[0m[39m[22m
+[1m[31m    [7m13[0m   templateUrl: './app.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component AppComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/components/plant-list/plant-list.component.html[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mInvalid ICU message. Missing '}'.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/components/plant-list/plant-list.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './plant-list.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component PlantListComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/components/plant-list/plant-list.component.html[0m:[93m13[0m:[93m1[0m - [91merror[0m[90m NG5002: [0mUnexpected character "EOF" (Do you have an unescaped "{" in your template? Use "{{ '{' }}") to escape it.)[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m13[0m [39m[22m
+[1m[31m[7m  [0m [91m[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m  [96msrc/app/components/plant-list/plant-list.component.ts[0m:[93m10[0m:[93m16[0m[39m[22m
+[1m[31m    [7m10[0m   templateUrl: './plant-list.component.html',[39m[22m
+[1m[31m    [7m  [0m [96m               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m    Error occurs in the template of component PlantListComponent.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/services/plant.service.ts[0m:[93m2[0m:[93m36[0m - [91merror[0m[90m TS2307: [0mCannot find module '../data/plant-data' or its corresponding type declarations.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m2[0m import { PLANTS, CATEGORIES } from '../data/plant-data';[39m[22m
+[1m[31m[7m [0m [91m                                   ~~~~~~~~~~~~~~~~~~~~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[0m[91mError: [39m[31m[0m[96msrc/app/services/plant.service.ts[0m:[93m14[0m:[93m26[0m - [91merror[0m[90m TS7006: [0mParameter 'p' implicitly has an 'any' type.[39m[22m
+[1m[31m[39m[22m
+[1m[31m[7m14[0m     return PLANTS.filter(p => p.categoryId === categoryId);[39m[22m
+[1m[31m[7m  [0m [91m                         ~[0m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m
+[1m[31m[39m[22m

@@ -1,0 +1,20 @@
+<div class="card">
+
+  <img [src]="plant.images[currentImageIndex]" />
+
+  <button (click)="next()">Next Image</button>
+
+  <h3>{{ plant.name }}</h3>
+  <p>{{ plant.description }}</p>
+  <p>{{ plant.price }} KZT</p>
+  <p>⭐ {{ plant.rating }}</p>
+  <p>❤ {{ plant.likes }}</p>
+
+  <button (click)="like()">Like</button>
+  <button (click)="remove()">Delete</button>
+  <button (click)="shareWhatsApp()">WhatsApp</button>
+  <button (click)="shareTelegram()">Telegram</button>
+
+  <a [href]="plant.link" target="_blank">View</a>
+
+</div>

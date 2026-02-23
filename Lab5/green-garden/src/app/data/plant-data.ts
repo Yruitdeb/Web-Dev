@@ -1,0 +1,301 @@
+import { Plant } from '../models/plant.model';
+import { Category } from '../models/category.model';
+
+// Categories
+export const CATEGORIES: Category[] = [
+  { id: 1, name: 'Flowers' },
+  { id: 2, name: 'Succulents' },
+  { id: 3, name: 'Indoor Plants' },
+  { id: 4, name: 'Outdoor Plants' }
+];
+
+// Plants
+export const PLANTS: Plant[] = [
+  // Flowers
+  {
+    id: 101,
+    name: 'Lycoris',
+    description: 'Beautiful red spider lilies, perfect for brightening your garden.',
+    price: 2500,
+    rating: 4.8,
+    image: 'assets/images/lycoris1.jpg',
+    images: ['assets/images/lycoris1.jpg', 'assets/images/lycoris2.jpg', 'assets/images/lycoris3.jpg'],
+    link: 'https://kaspi.kz/shop/p/lycoris-12345',
+    likes: 0,
+    categoryId: 1,
+    color: 'Red',
+    type: 'Flower'
+  },
+  {
+    id: 102,
+    name: 'Lotus',
+    description: 'Elegant lotus plants suitable for ponds or decorative water gardens.',
+    price: 5000,
+    rating: 4.7,
+    image: 'assets/images/lotus1.jpg',
+    images: ['assets/images/lotus1.jpg', 'assets/images/lotus2.jpg', 'assets/images/lotus3.jpg'],
+    link: 'https://kaspi.kz/shop/p/lotus-12346',
+    likes: 0,
+    categoryId: 1,
+    color: 'Pink',
+    type: 'Flower'
+  },
+  {
+    id: 103,
+    name: 'Rose',
+    description: 'Classic garden roses, fragrant and colorful for all occasions.',
+    price: 1800,
+    rating: 4.9,
+    image: 'assets/images/rose1.avif',
+    images: ['assets/images/rose1.avif', 'assets/images/rose2.jpg', 'assets/images/rose3.jpg'],
+    link: 'https://kaspi.kz/shop/p/rose-12347',
+    likes: 0,
+    categoryId: 1,
+    color: 'Red',
+    type: 'Flower'
+  },
+  {
+    id: 104,
+    name: 'Tulip',
+    description: 'Bright tulips that bloom in spring, perfect for balconies and gardens.',
+    price: 1500,
+    rating: 4.5,
+    image: 'assets/images/tulip1.jpg',
+    images: ['assets/images/tulip1.jpg', 'assets/images/tulip2.jpg', 'assets/images/tulip3.webp'],
+    link: 'https://kaspi.kz/shop/p/tulip-12348',
+    likes: 0,
+    categoryId: 1,
+    color: 'Yellow',
+    type: 'Flower'
+  },
+  {
+    id: 105,
+    name: 'Orchid',
+    description: 'Exotic orchids, ideal for indoor decoration and gifts.',
+    price: 3200,
+    rating: 4.6,
+    image: 'assets/images/orchid1.webp',
+    images: ['assets/images/orchid1.webp', 'assets/images/orchid2.jpg', 'assets/images/orchid3.avif'],
+    link: 'https://kaspi.kz/shop/p/orchid-12349',
+    likes: 0,
+    categoryId: 1,
+    color: 'White',
+    type: 'Flower'
+  },
+
+  // Succulents
+  {
+    id: 201,
+    name: 'Cactus',
+    description: 'Easy-to-care cacti, perfect for windowsills or desert-themed decor.',
+    price: 1200,
+    rating: 4.4,
+    image: 'assets/images/cactus1.jpg',
+    images: ['assets/images/cactus1.jpg', 'assets/images/cactus2.jpg', 'assets/images/cactus3.webp'],
+    link: 'https://kaspi.kz/shop/p/cactus-12350',
+    likes: 0,
+    categoryId: 2,
+    color: 'Green',
+    type: 'Succulent'
+  },
+  {
+    id: 202,
+    name: 'Aloe Vera',
+    description: 'Medicinal succulent with soothing gel, great for indoor spaces.',
+    price: 900,
+    rating: 4.5,
+    image: 'assets/images/aloe1.jpg',
+    images: ['assets/images/aloe1.jpg', 'assets/images/aloe2.jpg', 'assets/images/aloe3.jpg'],
+    link: 'https://kaspi.kz/shop/p/aloe-12351',
+    likes: 0,
+    categoryId: 2,
+    color: 'Green',
+    type: 'Succulent'
+  },
+  {
+    id: 203,
+    name: 'Echeveria',
+    description: 'Small rosette-shaped succulent, perfect for pots and gardens.',
+    price: 700,
+    rating: 4.6,
+    image: 'assets/images/echeveria1.jpg',
+    images: ['assets/images/echeveria1.jpg', 'assets/images/echeveria2.jpg', 'assets/images/echeveria3.jpg'],
+    link: 'https://kaspi.kz/shop/p/echeveria-12352',
+    likes: 0,
+    categoryId: 2,
+    color: 'Green',
+    type: 'Succulent'
+  },
+  {
+    id: 204,
+    name: 'Jade Plant',
+    description: 'Popular succulent symbolizing good luck and prosperity.',
+    price: 1100,
+    rating: 4.3,
+    image: 'assets/images/jade1.jpg',
+    images: ['assets/images/jade1.jpg', 'assets/images/jade2.jpg', 'assets/images/jade3.jpg'],
+    link: 'https://kaspi.kz/shop/p/jade-12353',
+    likes: 0,
+    categoryId: 2,
+    color: 'Green',
+    type: 'Succulent'
+  },
+  {
+    id: 205,
+    name: 'Haworthia',
+    description: 'Small, striped succulent perfect for office desks or windowsills.',
+    price: 850,
+    rating: 4.2,
+    image: 'assets/images/haworthia1.jpg',
+    images: ['assets/images/haworthia1.jpg', 'assets/images/haworthia2.jpg', 'assets/images/haworthia3.jpg'],
+    link: 'https://kaspi.kz/shop/p/haworthia-12354',
+    likes: 0,
+    categoryId: 2,
+    color: 'Green',
+    type: 'Succulent'
+  },
+
+  // Indoor Plants
+  {
+    id: 301,
+    name: 'Monstera',
+    description: 'Large-leaf tropical indoor plant, adds a jungle vibe to interiors.',
+    price: 4500,
+    rating: 4.7,
+    image: 'assets/images/monstera1.jpg',
+    images: ['assets/images/monstera1.jpg', 'assets/images/monstera2.jpg', 'assets/images/monstera3.jpg'],
+    link: 'https://kaspi.kz/shop/p/monstera-12355',
+    likes: 0,
+    categoryId: 3,
+    color: 'Green',
+    type: 'Indoor'
+  },
+  {
+    id: 302,
+    name: 'Fiddle Leaf Fig',
+    description: 'Popular indoor plant with large violin-shaped leaves.',
+    price: 4000,
+    rating: 4.6,
+    image: 'assets/images/fig1.jpg',
+    images: ['assets/images/fig1.jpg', 'assets/images/fig2.jpg', 'assets/images/fig3.jpg'],
+    link: 'https://kaspi.kz/shop/p/fig-12356',
+    likes: 0,
+    categoryId: 3,
+    color: 'Green',
+    type: 'Indoor'
+  },
+  {
+    id: 303,
+    name: 'Peace Lily',
+    description: 'Elegant flowering indoor plant with white blooms.',
+    price: 2800,
+    rating: 4.5,
+    image: 'assets/images/peacelily1.jpg',
+    images: ['assets/images/peacelily1.jpg', 'assets/images/peacelily2.jpg', 'assets/images/peacelily3.jpg'],
+    link: 'https://kaspi.kz/shop/p/peacelily-12357',
+    likes: 0,
+    categoryId: 3,
+    color: 'White',
+    type: 'Indoor'
+  },
+  {
+    id: 304,
+    name: 'Snake Plant',
+    description: 'Low maintenance indoor plant with upright sword-shaped leaves.',
+    price: 1500,
+    rating: 4.4,
+    image: 'assets/images/snake1.jpg',
+    images: ['assets/images/snake1.jpg', 'assets/images/snake2.jpg', 'assets/images/snake3.jpg'],
+    link: 'https://kaspi.kz/shop/p/snake-12358',
+    likes: 0,
+    categoryId: 3,
+    color: 'Green',
+    type: 'Indoor'
+  },
+  {
+    id: 305,
+    name: 'Dracaena',
+    description: 'Indoor plant that improves air quality and adds greenery.',
+    price: 2300,
+    rating: 4.3,
+    image: 'assets/images/dracaena1.jpg',
+    images: ['assets/images/dracaena1.jpg', 'assets/images/dracaena2.jpg', 'assets/images/dracaena3.jpg'],
+    link: 'https://kaspi.kz/shop/p/dracaena-12359',
+    likes: 0,
+    categoryId: 3,
+    color: 'Green',
+    type: 'Indoor'
+  },
+
+  // Outdoor Plants
+  {
+    id: 401,
+    name: 'Maple Tree',
+    description: 'Beautiful outdoor tree with vibrant autumn leaves.',
+    price: 8500,
+    rating: 4.7,
+    image: 'assets/images/maple1.jpg',
+    images: ['assets/images/maple1.jpg', 'assets/images/maple2.jpg', 'assets/images/maple3.jpg'],
+    link: 'https://kaspi.kz/shop/p/maple-12360',
+    likes: 0,
+    categoryId: 4,
+    color: 'Red',
+    type: 'Outdoor'
+  },
+  {
+    id: 402,
+    name: 'Lavender',
+    description: 'Fragrant outdoor plant, attracts bees and butterflies.',
+    price: 1200,
+    rating: 4.6,
+    image: 'assets/images/lavender1.jpg',
+    images: ['assets/images/lavender1.jpg', 'assets/images/lavender2.jpg', 'assets/images/lavender3.jpg'],
+    link: 'https://kaspi.kz/shop/p/lavender-12361',
+    likes: 0,
+    categoryId: 4,
+    color: 'Purple',
+    type: 'Outdoor'
+  },
+  {
+    id: 403,
+    name: 'Rose Bush',
+    description: 'Outdoor rose bush with multiple blooms during summer.',
+    price: 3000,
+    rating: 4.8,
+    image: 'assets/images/rosebush1.jpg',
+    images: ['assets/images/rosebush1.jpg', 'assets/images/rosebush2.jpg', 'assets/images/rosebush3.jpg'],
+    link: 'https://kaspi.kz/shop/p/rosebush-12362',
+    likes: 0,
+    categoryId: 4,
+    color: 'Red',
+    type: 'Outdoor'
+  },
+  {
+    id: 404,
+    name: 'Sunflower',
+    description: 'Tall sunflower plants that bring summer joy to your garden.',
+    price: 1000,
+    rating: 4.5,
+    image: 'assets/images/sunflower1.jpg',
+    images: ['assets/images/sunflower1.jpg', 'assets/images/sunflower2.jpg', 'assets/images/sunflower3.jpg'],
+    link: 'https://kaspi.kz/shop/p/sunflower-12363',
+    likes: 0,
+    categoryId: 4,
+    color: 'Yellow',
+    type: 'Outdoor'
+  },
+  {
+    id: 405,
+    name: 'Hibiscus',
+    description: 'Beautiful tropical outdoor plant with vibrant flowers.',
+    price: 2200,
+    rating: 4.6,
+    image: 'assets/images/hibiscus1.jpg',
+    images: ['assets/images/hibiscus1.jpg', 'assets/images/hibiscus2.jpg', 'assets/images/hibiscus3.jpg'],
+    link: 'https://kaspi.kz/shop/p/hibiscus-12364',
+    likes: 0,
+    categoryId: 4,
+    color: 'Pink',
+    type: 'Outdoor'
+  }
+];

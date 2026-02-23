@@ -1,0 +1,13 @@
+<div class="grid">
+
+  <app-plant-item
+    *ngFor="let plant of plants"
+    [plant]="plant"
+    (delete)="deletePlant($event)">
+  </app-plant-item>
+
+</div>
+
+<p *ngIf="plants.length === 0">
+  No plants found.
+</p>

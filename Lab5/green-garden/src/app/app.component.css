@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+  color: #2e7d32;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px;
+}
+
+.categories button.active {
+  background-color: #2e7d32;
+  color: white;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 18px;
+}
