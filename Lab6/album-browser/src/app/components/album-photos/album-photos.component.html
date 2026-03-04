@@ -4,9 +4,11 @@
 
 <div class="grid" *ngIf="!loading">
   <div class="photo" *ngFor="let photo of photos">
-    <img [src]="photo.thumbnailUrl" [alt]="photo.title">
+    <img 
+      [src]="'https://picsum.photos/150?random=' + photo.id"
+      [alt]="photo.title">
     <p>{{ photo.title }}</p>
   </div>
 </div>
 
-<button (click)="goBack()">Back</button>
+<button (click)="goBack()">Back</button><button (click)="goBack()">Back</button>
